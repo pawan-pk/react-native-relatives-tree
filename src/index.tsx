@@ -1,3 +1,17 @@
-export function multiply(a: number, b: number): Promise<number> {
-  return Promise.resolve(a * b);
-}
+import type {
+  RelativeItem,
+  RelativeItemComponent,
+  RelativeItemProps,
+  RelativesTreeProps,
+} from './types';
+
+import RelativesTree from './RelativesTree';
+
+export type {
+  RelativeItem,
+  RelativesTreeProps,
+  RelativeItemProps,
+  RelativeItemComponent,
+};
+
+export default RelativesTree;
