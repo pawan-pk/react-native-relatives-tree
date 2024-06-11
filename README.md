@@ -71,7 +71,7 @@ import RelativesTree from 'react-native-relatives-tree';
 />;
 ```
 
-Simple relatives data
+Sample relatives data
 
 ```json
 [
