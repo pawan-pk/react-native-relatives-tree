@@ -53,19 +53,23 @@ import RelativesTree from 'react-native-relatives-tree';
 <RelativesTree
   data={relatives}
   spouseKey="spouse"
-  cardWidth={100}
+  cardWidth={60}
   gap={10}
   relativeItem={({ level, info, style }) => (
     <View
       style={[
         {
-          height: 100,
-          width: 100, // Equal value of cardWidth
+          height: 60,
+          width: 60, // Equal value of cardWidth
+          borderWidth: 1,
+          alignItems: 'center',
+          justifyContent: 'center',
         },
         style,
       ]}
     >
-      {info.name} ({level})
+      <Text>{info.name}</Text>
+      <Text>({level})</Text>
     </View>
   )}
 />;
