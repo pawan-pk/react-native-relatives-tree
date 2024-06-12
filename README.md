@@ -2,11 +2,11 @@
 
 Create family trees and calculate relationships, generate nodes, and render the family tree.
 
-[Check out the Example app](https://github.com/pawan-pk/react-native-relatives-tree/example)
+[Check out the Example app](https://github.com/pawan-pk/react-native-relatives-tree/tree/main/example)
 
-# I forked this project to continue working on it.
+## I forked this project to continue working on it.
 
-This project is a fork ofhttps://github.com/Johncy1997/react-native-family-tree the original repository is not maintained anymore.
+This project is a fork of https://github.com/Johncy1997/react-native-family-tree the original repository is not maintained anymore.
 
 ## Installation
 
