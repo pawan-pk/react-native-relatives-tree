@@ -7,7 +7,7 @@ export const styles = StyleSheet.create({
   renderViewPadding: {
     padding: 50,
   },
-  lavelsView: {
+  levelsView: {
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -15,7 +15,7 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
   },
-  childrensLines: {
+  childrenLines: {
     flexDirection: 'row',
   },
   marginRightZero: {

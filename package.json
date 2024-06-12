@@ -1,7 +1,7 @@
 {
   "name": "react-native-relatives-tree",
-  "version": "0.1.0",
-  "description": "Create relatives trees and creates , calculates families and notes for rending relatives tree.",
+  "version": "0.1.1",
+  "description": "Create family trees and calculate relationships, generate nodes, and render the family tree.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/src/index.d.ts",
@@ -79,7 +79,7 @@
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
-    "react-native-svg": "^15.3.0"
+    "react-native-svg": "*"
   },
   "workspaces": [
     "example"

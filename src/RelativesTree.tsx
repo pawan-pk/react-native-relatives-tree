@@ -51,7 +51,7 @@ class RelativesTree<RelativesT extends RelativeItem> extends Component<
           const spouse = item[this.props.spouseKey];
           const isChildren = item.children && item.children.length > 0;
           return (
-            <View style={styles.lavelsView}>
+            <View style={styles.levelsView}>
               <View style={styles.nodesView}>
                 {spouse && (
                   <View
@@ -99,13 +99,13 @@ class RelativesTree<RelativesT extends RelativeItem> extends Component<
                   />
                 </Svg>
               )}
-              <View style={styles.childrensLines}>
+              <View style={styles.childrenLines}>
                 {item.children &&
                   item.children.map((child, index) => {
                     return (
                       <View
                         key={this.props.childKeyExtractor(child, index)}
-                        style={styles.childrensLines}
+                        style={styles.childrenLines}
                       >
                         <View>
                           <Svg height="50" width="100%">
